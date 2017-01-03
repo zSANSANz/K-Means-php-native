@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{position:relative}
+
+html{font:.83em/1.5 Arial, Helvetica, sans-serif; color:#333;vertical-align:baseline; }
+
+h1,h2,h3,h4,h5{line-height:1.15}
+body{ margin:center;	
+background:#fff; background:rgba(255,255,255,1); 
+-webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.48);
+-moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.48);
+box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.48);
+ height:670px; width:800px; background:#fff; margin:40px auto 0;}
+a:link,a,a:visited{color:#159; text-decoration:none}
+a:hover{text-decoration:underline}
+.left{float:left}
+.right{float:right}
+.clearfix:after{content:"";display:block;height:0;width:0;clear:both}
+
+bold,strong{font-weight:bold}
+em,italic{font-style:italic}
+
+.p20{padding:20px}
+.w50{width:50%}
+.w67{width:66.67%}
+.w33{width:33.33%}
+.w60{width:60%}
+.w40{width:40%}
+.header-login{background:#fff; padding: 20px}
+.header-login h1{color:#fff; font-size:150%;font-weight:bold;line-height:1.2}
+
+#loginF{}
+#loginF input{}
+.login-inner {background:#e2e2e2;}
+.login-inner input{width:96%; background-color:#fff;border:none; margin:0 0 10px 0; padding:2%}
+.login-inner input[type=submit]{width:100%;padding:0; height:36px;margin:10px 0;cursor:pointer;
+								background:#dd3333; color:#fff;font-weight:bold; opacity:.8}
+.login-inner input[type=submit]:hover{opacity:1}
+.login-inner label{display:block; margin-bottom:2px;font-weight:bold}
+#errormsg span{background:#a00;color:#fff; font-size:11px; padding: 5px; margin:5px 0; display:block; text-align:center}
+
+.announcement{padding:10px 0; /*border-bottom:dotted 1px #333;*/}
+.announcement li{display:list-item;list-style:disc; margin-left:24px}
+
+div.boxed-style {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.top-navigation-wrapper {
+    position: relative;
+    z-index: 20;
+    height: 7px;
+	background-color: #dd3333;
+}
+
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+
+#footer{background:#222;color:#fff;color:#fff;font-size:12px}
+#footer li{float:left}
+#footer li a{margin:0 5px;display:block;color:#fff}
